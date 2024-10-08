@@ -78,7 +78,7 @@ include_once '../backend/php/login.php'
     <div class="split-sceen">
       <div class="left">
         <section class="copy">
-          <h1>Sistema-de-ventas-compras-e-inventario</h1>
+          <h1>Sistema de ventas compras e inventario</h1>
           <p>Tu mejor inventario para equipos de computo</p>
           
         </section>
