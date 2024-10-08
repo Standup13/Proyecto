@@ -81,7 +81,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">
@@ -216,7 +216,7 @@ if($sentencia){
                                     <td><?php  echo "<img src='../../backend/img/subidas/".$d->foto."'width='50'"; ?></td>
                                     <td><h4><?php echo $d->codpro ?></h4></td>
                                     <td><h4><?php echo $d->nomprd ?></h4></td>
-                                   <td><h4>S/<?php echo number_format($d->precio,2) ?></h4></td>
+                                   <td><h4>$<?php echo number_format($d->precio,2) ?></h4></td>
 
                                    <td style="width:260px;">
                                      <form class="form-inline" method="post" action="">

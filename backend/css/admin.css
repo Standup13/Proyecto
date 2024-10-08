@@ -43,6 +43,8 @@
 .side-header h3, side-head span {
     color: #fff;
     font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 10px;
 }
 
 .side-content {

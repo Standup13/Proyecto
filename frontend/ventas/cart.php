@@ -81,7 +81,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">
@@ -214,7 +214,7 @@ $select_cart = $connect->prepare("SELECT cart.idv, usuarios.id, usuarios.nombre,
    
          <td><h4><?= $fetch_cart['codpro']; ?></h4></td>
          <td><h4><?= $fetch_cart['nomprd']; ?></h4></td>
-         <td><h4>S/<?php echo number_format($fetch_cart['precio'],2) ?></h4></td>
+         <td><h4>$<?php echo number_format($fetch_cart['precio'],2) ?></h4></td>
          <td><h4><?= $fetch_cart['stock']; ?></h4></td>
         <td>
     <form action="" method="POST">
@@ -225,7 +225,7 @@ $select_cart = $connect->prepare("SELECT cart.idv, usuarios.id, usuarios.nombre,
     <button type="submit" name="update_qty" class="btn btn-primary" style="cursor: pointer;"> <i class="fa fa-refresh"></i></button>
     </form>    
         </td>
-        <td><h4>S/<?= number_format($sub_total = ($fetch_cart['precio'] * $fetch_cart['quantity']),2); ?></h4></td>
+        <td><h4>$<?= number_format($sub_total = ($fetch_cart['precio'] * $fetch_cart['quantity']),2); ?></h4></td>
     <td style="width:260px;">
     <a title="Eliminar" onclick="return confirm('Eliminar del carrito?');" href="../ventas/eliminar.php?id=<?= $fetch_cart['idv']; ?>" class="fa fa-trash"></a>                            
     </td>
@@ -239,7 +239,7 @@ $select_cart = $connect->prepare("SELECT cart.idv, usuarios.id, usuarios.nombre,
    ?>
         </tbody>
     </table>
-     <h1 style="font-size:42px; color:#000000;">Precio Total: S/<?php echo number_format($grand_total, 2); ?>
+     <h1 style="font-size:42px; color:#000000;">Precio Total: $<?php echo number_format($grand_total, 2); ?>
                     </div>
 
 

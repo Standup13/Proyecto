@@ -81,7 +81,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">

@@ -81,7 +81,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">
@@ -248,7 +248,7 @@ if($sentencia){
                                     <td><?php echo $d->idord ?></td>
                                     <td><h4><?php echo $d->tipc ?></h4></td>
                                     <td><h4><?php echo $d->placed_on ?></h4></td>
-                                    <td><h4>S/<?php echo number_format($d->total_price, 2); ?></h4></td>
+                                    <td><h4>$<?php echo number_format($d->total_price, 2); ?></h4></td>
                                     <td>
                                         <div class="client">
                                            

@@ -12,7 +12,7 @@ $pdf->SetFont('Arial','B',5);
 
 // CABECERA
 $pdf->SetFont('Helvetica','',12);
-$pdf->Cell(60,4,'computeradvance.com',0,1,'C');
+$pdf->Cell(60,4,'Sistema-de-ventas-compras-e-inventario.com',0,1,'C');
 $pdf->SetFont('Helvetica','',8);
 $pdf->Cell(60,4,'C.I.F.: 01234567A',0,1,'C');
 $pdf->Cell(60,4,'C/ Arturo Soria, 1',0,1,'C');
@@ -47,7 +47,7 @@ while($row = $stmt->fetch()){
 $pdf-> Multicell(20,5,utf8_decode($row['total_products']),0,'L',0);
    
     $pdf->Multicell(20,5,utf8_decode($row['nomcl']),0,0,'L',0);
-    $pdf->cell(20,5,'S/'.($row['total_price']),0,1,'R',0);
+    $pdf->cell(20,5,'$'.($row['total_price']),0,1,'R',0);
 
 $pdf->Ln(5);
 //              TOTAL
@@ -56,7 +56,7 @@ $pdf->SetFont('Arial','B',8);
 $pdf->Cell(45,5,'TOTAL',0,0,'L',0);
 
 $pdf->SetFont('Arial','',8);
-$pdf->Cell(10,5,'S/'.($row['total_price']));
+$pdf->Cell(10,5,'$'.($row['total_price']));
 
 
 

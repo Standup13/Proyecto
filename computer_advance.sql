@@ -102,9 +102,9 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`idcli`, `tipd`, `nudoc`, `nocl`, `apcl`, `telfcl`, `state`, `username`, `password`, `rol`, `fere`) VALUES
-(1, 'dni', '78885848', 'Julian', 'Juarez Lopez', '968586757', '1', 'jjuluLo', '77c9749b451ab8c713c48037ddfbb2c4', '2', '2022-11-15 07:07:43'),
-(2, 'dni', '76546564', 'Karla', 'Martinez', '976575665', '1', 'kkmart21', '96e79218965eb72c92a549dd5a330112', '2', '2022-11-15 07:08:04'),
-(4, 'dni', '76564564', 'Leonardo', 'Flores', '986858658', '1', '', '', '', '2022-11-19 07:56:52');
+(1, 'cedula', '78885848', 'Julian', 'Juarez Lopez', '968586757', '1', 'jjuluLo', '77c9749b451ab8c713c48037ddfbb2c4', '2', '2022-11-15 07:07:43'),
+(2, 'cedula', '76546564', 'Karla', 'Martinez', '976575665', '1', 'kkmart21', '96e79218965eb72c92a549dd5a330112', '2', '2022-11-15 07:08:04'),
+(4, 'cedula', '76564564', 'Leonardo', 'Flores', '986858658', '1', '', '', '', '2022-11-19 07:56:52');
 
 -- --------------------------------------------------------
 

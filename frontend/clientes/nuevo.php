@@ -81,7 +81,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">
@@ -196,7 +196,7 @@
     <label for="psw"><b>Tipo de documento</b></label><span class="badge-warning">*</span>
     <select required name="tipcl">
         <option>Seleccione</option>
-        <option value="dni">DNI</option>
+        <option value="cedula">cedula</option>
     </select>
 
     <label for="email"><b>Número del documento</b></label><span class="badge-warning">*</span>

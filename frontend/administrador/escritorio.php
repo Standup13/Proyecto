@@ -98,7 +98,7 @@
    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="side-header">
-            <h3>Computer<span>Advance</span></h3>
+            <h3>Sistema-de-ventas-compras-e-inventario<h3>
         </div>
         
         <div class="side-content">
@@ -228,7 +228,7 @@
                                             $total = $result->fetchColumn();
 
                                              ?>
-                            <h2>S/<?php echo number_format($total,2) ?></h2>
+                            <h2>$<?php echo number_format($total,2) ?></h2>
                             <span class="las la-money-bill"></span>
                         </div>
                         <div class="card-progress">
@@ -281,7 +281,7 @@
                                             $total = $result->fetchColumn();
 
                                              ?>
-                            <h2>S/<?php echo number_format($total,2) ?></h2>
+                            <h2>$<?php echo number_format($total,2) ?></h2>
                             <span class="las la-store"></span>
                         </div>
                         <div class="card-progress">
