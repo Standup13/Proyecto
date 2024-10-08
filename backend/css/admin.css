@@ -40,16 +40,17 @@
     align-items: center;
 }
 
+
+.side-content {
+    height: calc(100vh - 60px);
+    overflow: auto;
+}
+
 .side-header h3, side-head span {
     color: #fff;
     font-weight: 400;
     font-size: 0.8rem;
     margin-left: 9px;
-}
-
-.side-content {
-    height: calc(100vh - 60px);
-    overflow: auto;
 }
 
 /* width */
@@ -104,9 +105,11 @@
     font-weight: 600;
 }
 
+/*
 .sidebar {
-    /*overflow-y: auto;*/
+    overflow-y: auto;
 }
+*/
 
 .side-menu ul {
     text-align: center;
