@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-10-2024 a las 11:12:40
--- Versión del servidor: 10.4.32-MariaDB
--- Versión de PHP: 8.2.12
+-- Tiempo de generación: 11-10-2024 a las 16:07:12
+-- Versión del servidor: 10.4.28-MariaDB
+-- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -50,6 +50,14 @@ CREATE TABLE `cart_purchase` (
   `price` decimal(10,2) NOT NULL,
   `quantity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `cart_purchase`
+--
+
+INSERT INTO `cart_purchase` (`idcpr`, `user_id`, `idprod`, `name`, `price`, `quantity`) VALUES
+(6, 1, 4, 'LAPTO hP ULTRA', 2400.00, 1),
+(7, 1, 2, ' PC Todo en Uno Lenovo IdeaCentre 3, Intel Core i5-10400T 2.4GHz, RAM 8GB, HDD 1TB, Wi-FI, BT, LED 24', 3099.00, 10);
 
 -- --------------------------------------------------------
 
@@ -257,7 +265,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `username`, `correo`, `password`, `rol`, `fere`, `state`) VALUES
-(1, 'Leonard', 'Standup13', 'leonardmares1@gmail.com', '950061fbfb6daabe436f116866cfccdc', '1', '2024-10-08 04:21:32', '1');
+(1, 'Leonard', 'Standup13', 'leonardmares1@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', '1', '2024-10-11 14:05:56', '1');
 
 --
 -- Índices para tablas volcadas
@@ -344,7 +352,7 @@ ALTER TABLE `cart`
 -- AUTO_INCREMENT de la tabla `cart_purchase`
 --
 ALTER TABLE `cart_purchase`
-  MODIFY `idcpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `idcpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `categoria`
@@ -428,4 +436,4 @@ COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */; 
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
