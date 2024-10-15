@@ -12,7 +12,7 @@ include_once '../backend/php/login.php'
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistema-de-ventas-compras-e-inventario</title>
+  <title>standup13db</title>
   <link rel="icon" type="image/png" href="../backend/img/logo.png">
   <link rel="stylesheet" type="text/css" href="../backend/css/style.css">
   <style type="text/css">

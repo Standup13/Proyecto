@@ -53,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Standup13/Sistema-de-ventas-compras-e-inventario/issues).
+Feel free to check the [issues page](https://github.com/Standup13/standup13db/issues).
 
 ## Show your support
 

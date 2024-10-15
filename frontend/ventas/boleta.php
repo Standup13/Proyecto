@@ -20,7 +20,7 @@ $pdf->Cell(59 ,1,utf8_decode('Boleta electrónica'),0,100);
 $pdf->Cell(59 ,10,'',0,1);
 
 $pdf->SetFont('Arial','B',15);
-$pdf->Cell(71 ,5,'Sistema-de-ventas-compras-e-inventario',0,0);
+$pdf->Cell(71 ,5,'standup13db',0,0);
 $pdf->Cell(59 ,5,'',0,0);
 $pdf->Cell(59 ,5,'Detalles',0,1);
 

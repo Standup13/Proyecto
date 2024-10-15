@@ -12,7 +12,7 @@ $pdf->SetFont('Arial','B',5);
 
 // CABECERA
 $pdf->SetFont('Helvetica','',12);
-$pdf->Cell(60,4,'Sistema-de-ventas-compras-e-inventario.com',0,1,'C');
+$pdf->Cell(60,4,'standup13db.com',0,1,'C');
 $pdf->SetFont('Helvetica','',8);
 $pdf->Cell(60,4,'C.I.F.: 01234567A',0,1,'C');
 $pdf->Cell(60,4,'C/ Arturo Soria, 1',0,1,'C');

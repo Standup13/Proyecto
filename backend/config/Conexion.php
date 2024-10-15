@@ -8,7 +8,7 @@ if(!isset($_SESSION))
 define('dbhost', 'localhost');
 define('dbuser', 'root');
 define('dbpass', '');
-define('dbname', 'Sistema-de-ventas-compras-e-inventario');
+define('dbname', 'standup13db');
 
 // Connecting database
 try {
