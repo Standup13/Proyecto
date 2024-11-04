@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://standup13.github.io//)
+[Live Demo Link](http://stand13-001-site1.ntempurl.com/frontend/login.php)
 
 ## Getting Started
 
